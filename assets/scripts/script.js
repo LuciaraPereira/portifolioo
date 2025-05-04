@@ -7,15 +7,9 @@ fetch('particles-config.json')  // Carrega o arquivo JSON
   .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
 
 
-const linksNav = document.querySelectorAll('.linkInteracao'); //peguei o "endereço" dos links
-//const urlLinkAtual = window.location.href;
+  const navegacao = document.getElementById('links-nav');
+  const menu = document.getElementById('icon-menu');
 
-linksNav.forEach( linkAtual =>{
-
-    linkAtual.addEventListener('click', function (a) {
-        linksNav.forEach(linkAtual => linksNav.classList.remove('ativo'));
-        // Adiciona a classe 'ativo' ao link que foi clicado
-        this.classList.add('ativo');
-      });
-   
-});
+  menu.addEventListener('click', () => {
+    navegacao.classList.toggle('ativo')
+  })

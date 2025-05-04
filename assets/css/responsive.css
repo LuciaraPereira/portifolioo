@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    .sessao-sobre{
+      flex-wrap: wrap;
+      }
+    
+    .perfil img{
+        width: 150px;
+        border-radius: 400px;
+    }
+    
+    .sobre-texto p{
+        font-size: 15px;
+    }
+    
+
+}
+
+@media (max-width: 800px){
+  header{
+    display: none;
+  }
+    header nav {
+        display: none; 
+      }
+
+      .menu-responsivo {
+        display: block;
+        background-color: #C6186C;
+        width: 100%;
+        position: fixed;
+        top: 0;
+      }
+
+      .separando-logos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu {
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        margin: 20px 30px;
+      }
+
+      .logo-responsivo{
+        font-size: 40px;
+        margin: 20px 30px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .navegacao-responsivo {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #e9328b;
+        padding: 0px 90px;
+        margin: 0px 20px;
+        border-radius: 0px 0px 14px 14px;
+        border-top: #87124b solid 3px;
+        position: fixed;
+        right: 0;
+        left: 0;
+      }
+
+      .navegacao-responsivo ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 50px;
+        border-radius: 10px;
+      }
+    
+      .navegacao-responsivo.ativo {
+        display: block;
+      }
+    
+
+
+}
+
+@media (max-width: 615px){
+    .sessao-principal{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .titulos-inicio h1{
+       font-size: 30px;
+    }
+
+    .titulos-inicio h2{
+        font-size: 25px;
+    }
+
+    .titulo-contato{
+      
+        font-size: 25px;
+    }
+
+}
+

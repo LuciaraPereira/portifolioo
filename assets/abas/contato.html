@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="https://fonts.gstatic.com/s/i/materialicons/favorite/v16/24px.svg">
@@ -23,9 +24,24 @@
             </ul>
         </nav>
     </header>
+    <nav class="menu-responsivo">
+        <div class="separando-logos">
+             <div class="logo-responsivo">Luciara</div>
+             <div class="menu" id="icon-menu"><i class="fas fa-bars"></i></div>
+        </div>
+         
+         <div class="navegacao-responsivo" id="links-nav">
+             <ul class="navegacao">
+                 <li><a href="../../index.html" class="linkInteracao">Início</a></li>
+                 <li><a href="sobre.html" class="linkInteracao">Sobre</a></li>
+                 <li><a href="habilidades.html" class="linkInteracao">Habilidades</a></li>
+                 <li><a href="projetos.html" class="linkInteracao">Projetos</a></li>
+                 <li><a href="contato.html" class="linkInteracao">Contato</a></li>
+             </ul>
+         </div>
+     </nav>
     <main id="particles-js">
-        <section class="sessao-principal">
-                
+        <section class="sessao-principal">  
                 <form action="" id="contato">
                     <h1 class="titulo-contato">Entre em contato!</h1>
                     <label for="nome">Nome</label>
@@ -42,16 +58,12 @@
     
                     <button type="submit">Enviar</button>
                 </form>
-            
-            
-
-
           
         </section>
     </main>
 
 
-<script src="assets/scripts/script.js"></script>
+<script src="../scripts/script.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </body>
 </html>

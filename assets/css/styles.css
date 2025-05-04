@@ -27,12 +27,12 @@ body{
     align-items: center;
     padding: 0px 20px;
     color: #fff;
-    background-color: #e9328b;
+    background-color: #C6186C;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px; /* ou o valor real do seu header */
+    height: 100px;
     z-index: 1000;
   }
   
@@ -68,7 +68,7 @@ nav .navegacao{
 }
 
 .navegacao li a:hover{
-    color: #920b4c;
+    color: #fb7bb9;
 }
 
 .navegacao li a:active{
@@ -95,6 +95,7 @@ main{
     border-radius: 14px;
     box-shadow: 0 0 100px #bb3a78bd;
     margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
     flex-wrap: wrap; 
 
 }
@@ -103,6 +104,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
     flex-wrap: wrap;
    
 }
@@ -147,26 +149,27 @@ main{
     color: #ffffff; 
   }
 
+.sessao-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
 .perfil img{
     display: block;
-    width: 400px;
+    margin: 0px 10px;
+    width: 350px;
     height: auto;
     border-radius: 500px;
     transition: 1s;
 }
 
-.perfil img:hover{
-    display: block;
-    width: 400px;
-    height: auto;
-    border-radius: 500px;
-    margin-bottom: 50px;
-}
-
 .sobre-texto p{
+    display: flex;
     color: #fff;
     font-size: 18px;
-    margin: 15px;
+    margin: 0px 35px;
     text-align: justify;
 }
 
@@ -190,7 +193,9 @@ main{
     flex-direction: column;
     width: 600px;
     color: #fff;
+    height: 350px;
 }
+
 
 .titulo-contato{
     margin-bottom: 60px;
@@ -222,7 +227,6 @@ input::placeholder{
 button{
     border: #fff solid 2px;
     width: 104%;
-    height: 40px;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -232,6 +236,7 @@ button{
     font-size: 18px;
     background-color: #fff;
     color: #920b4c;
+    padding: 14px;
 }
 
 button:hover{
@@ -258,15 +263,13 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .projetos{
-    flex: 1; /* faz os itens crescerem igualmente */
-    min-height: 150px;
-    min-width: 150px; 
+    min-height: 100px;
+    min-width: 100px; 
     border: #ffffff solid 2px;
     border-radius: 10px;
     padding: 20px;
@@ -303,5 +306,9 @@ button:hover{
     background-color: #C6186C;
     color: #fff;
 }
+
+.menu-responsivo {
+    display: none;
+  }
 
 
