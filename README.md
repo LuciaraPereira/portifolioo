@@ -1,4 +1,4 @@
-<h1 align="center">Repositório dedicado ao meu primeiro portifólio</h1>
+<h1 align="center">Repositório dedicado ao meu primeiro portifólio *em construção</h1>
 
   
 # Desktop
