@@ -32,7 +32,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     z-index: 1000;
   }
   
@@ -79,7 +79,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 6.25rem;
+    padding-top: 4rem;
   }
 
 
@@ -95,7 +95,6 @@ main{
     border-radius: 14px;
     box-shadow: 0 0 100px #bb3a78bd;
     flex-wrap: wrap; 
-
 }
 
 .sessao-inicio{
