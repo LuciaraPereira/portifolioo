@@ -28,7 +28,7 @@ body{
     padding: 0px 20px;
     color: #fff;
     background-color: #C6186C;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -84,18 +84,16 @@ main{
 
 
 .sessao-principal{
-    max-width: 1500px;  
-    width: 90%;         
+    max-width: 1200px;  
+    width: 80%;         
     margin: 0 auto;   
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 9rem 2rem;
+    padding: 5rem 2rem;
     background-color: #e9328b;
     border-radius: 14px;
     box-shadow: 0 0 100px #bb3a78bd;
-    margin-top: 4.5rem;
-    margin-bottom: 1.5rem;
     flex-wrap: wrap; 
 
 }
@@ -120,13 +118,13 @@ main{
 
 
 .titulos-inicio h1{
-    font-size: 60px;
+    font-size: 40px;
     color: #fff;
 }
 
 .titulos-inicio h2{
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 12px;
 }
 
@@ -138,7 +136,8 @@ main{
 .imagem-inicio img{
     display: block;
     border-radius: 50px;
-    width: 350px;
+    width: 300px;
+    height: auto;
 }
 
 .botoes-inicio{
@@ -159,7 +158,7 @@ main{
 .perfil img{
     display: block;
     margin: 0px 10px;
-    width: 350px;
+    width: 300px;
     height: auto;
     border-radius: 500px;
     transition: 1s;
@@ -168,7 +167,7 @@ main{
 .sobre-texto p{
     display: flex;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0px 35px;
     text-align: justify;
 }

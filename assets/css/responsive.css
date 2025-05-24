@@ -9,7 +9,7 @@
     }
     
     .sobre-texto p{
-        font-size: 15px;
+        font-size: 12px;
     }
     
 
@@ -87,11 +87,11 @@
     }
 
     .titulos-inicio h1{
-       font-size: 30px;
+       font-size: 24px;
     }
 
     .titulos-inicio h2{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .titulo-contato{
@@ -99,5 +99,11 @@
         font-size: 25px;
     }
 
+    .imagem-inicio img{
+    display: block;
+    border-radius: 30px;
+    width: 150px;
+    height: auto;
+}
 }
 
