@@ -13,3 +13,5 @@ fetch('particles-config.json')  // Carrega o arquivo JSON
   menu.addEventListener('click', () => {
     navegacao.classList.toggle('ativo')
   })
+
+

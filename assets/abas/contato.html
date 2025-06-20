@@ -17,7 +17,7 @@
             <ul class="navegacao">
                 <li><a href="../../index.html" class="linkInteracao">Início</a></li>
                 <li><a href="sobre.html" class="linkInteracao">Sobre</a></li>
-                <li><a href="habilidades.html" class="linkInteracao">Habilidades</a></li>
+                <!-- <li><a href="habilidades.html" class="linkInteracao">Habilidades</a></li> -->
                 <li><a href="projetos.html" class="linkInteracao">Projetos</a></li>
                 <li><a href="contato.html" class="linkInteracao">Contato</a></li>
                 
@@ -34,7 +34,7 @@
              <ul class="navegacao">
                  <li><a href="../../index.html" class="linkInteracao">Início</a></li>
                  <li><a href="sobre.html" class="linkInteracao">Sobre</a></li>
-                 <li><a href="habilidades.html" class="linkInteracao">Habilidades</a></li>
+                 <!-- <li><a href="habilidades.html" class="linkInteracao">Habilidades</a></li> -->
                  <li><a href="projetos.html" class="linkInteracao">Projetos</a></li>
                  <li><a href="contato.html" class="linkInteracao">Contato</a></li>
              </ul>
@@ -42,19 +42,20 @@
      </nav>
     <main id="particles-js">
         <section class="sessao-principal">  
-                <form action="" id="contato">
+                <form  id="contato">
                     <h1 class="titulo-contato">Entre em contato!</h1>
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome" > 
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" > 
     
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
     
                     <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" >
+                    <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto" >
     
                     <label for="msg">Menssagem</label>
-                    <input type="text" name="msg" id="msg" >
+                    <input type="text" name="msg" id="msg" placeholder="Digite a sua Menssagem">
+
     
                     <button type="submit">Enviar</button>
                 </form>
@@ -65,5 +66,7 @@
 
 <script src="../scripts/script.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </body>
 </html>

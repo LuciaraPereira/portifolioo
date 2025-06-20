@@ -11,11 +11,10 @@
     .sobre-texto p{
         font-size: 12px;
     }
-    
-
 }
 
 @media (max-width: 800px){
+
   header{
     display: none;
   }
@@ -75,8 +74,6 @@
       .navegacao-responsivo.ativo {
         display: block;
       }
-    
-
 
 }
 
