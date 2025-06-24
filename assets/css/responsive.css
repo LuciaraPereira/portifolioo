@@ -15,6 +15,10 @@
 
 @media (max-width: 800px){
 
+  main{
+    min-height:100vh;
+  }
+
   header{
     display: none;
   }
@@ -78,6 +82,8 @@
 }
 
 @media (max-width: 615px){
+
+
     .sessao-principal{
         margin-top: 3rem;
         margin-bottom: 2rem;

@@ -1,7 +1,7 @@
-fetch('particles-config.json')  // Carrega o arquivo JSON
-  .then(response => response.json())  // Converte para um objeto JavaScript
+fetch('particles-config.json')  
+  .then(response => response.json())  
   .then(config => {
-    // Inicializa o Particles.js com a configuração carregada
+    // Efeito de partículas feito com a biblioteca particles.js de Vincent Garreau
     particlesJS("particles-js", config);
   })
   .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
