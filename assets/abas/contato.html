@@ -43,8 +43,15 @@
     <main id="particles-js">
         <section class="sessao-principal">  
                <form action="https://api.staticforms.xyz/submit" method="POST" id="contato">
-
-              
+                        <input type="hidden" name="apiKey" value="sf_8nb9bdlkjj23ammnf1hkdkd2">
+                   <!-- Anti-spam honeypot field -->
+                        <input
+                            type="text"
+                            name="honeypot"
+                            style="display: none"
+                            tabindex="-1"
+                            autocomplete="off"
+                        >
 
                     <h1 class="titulo-contato">Entre em contato!</h1>
                     <label for="nome">Nome</label>
@@ -57,21 +64,8 @@
                     <label for="messege">Menssagem</label>
                     <input type="text" name="messege" id="messege" placeholder="Digite a sua Menssagem" required>
 
-                        <input type="hidden" name="apiKey" value="sf_8nb9bdlkjj23ammnf1hkdkd2">
 
-
-                        <!-- Anti-spam honeypot field -->
-                        <input
-                            type="text"
-                            name="honeypot"
-                            style="display: none"
-                            tabindex="-1"
-                            autocomplete="off"
-                        >
-
-                     <input type="hidden" name="redirectTo" value="https://repository-gamma-five.vercel.app/../abas/okEmail.html">
-                     <a href="../abas/okEmail.html"></a>
-
+                     <input type="hidden" name="redirectTo" value="https://repository-gamma-five.vercel.app/assets/abas/okEmail.html">
     
                     <button type="submit">Enviar</button>
 
