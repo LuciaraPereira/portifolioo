@@ -210,6 +210,10 @@ input{
     text-align: center;
 }
 
+#messege{
+    min-height: 100px;
+}
+
 input:focus{
    background-color: #f5aace;
 }
@@ -222,7 +226,7 @@ input::placeholder{
 
 button{
     border: #fff solid 2px;
-    width: 20%;
+    min-width: 20%;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
