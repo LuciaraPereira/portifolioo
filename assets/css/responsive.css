@@ -117,3 +117,100 @@
 }
 }
  */
+
+
+ @media (max-width: 800px){
+
+  main{
+    min-height:100vh;
+  }
+
+  header{
+    display: none;
+  }
+    header nav {
+        display: none; 
+      }
+
+      .menu-responsivo {
+        display: block;
+        background-color: #C6186C;
+        width: 100%;
+        position: fixed;
+        top: 0;
+      }
+
+      .separando-logos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu {
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        margin: 20px 30px;
+      }
+
+      .logo-responsivo{
+        font-size: 40px;
+        margin: 20px 30px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .navegacao-responsivo {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #C6186C;
+        padding: 0px 90px;
+        border-radius: 0px 0px 14px 14px;
+        border: #87124b solid 3px;
+        position: fixed;
+        right: 0;
+        left: 0;
+      }
+
+      .navegacao-responsivo ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 50px;
+        border-radius: 10px;
+      }
+    
+      .navegacao-responsivo.ativo {
+        display: block;
+      }
+
+        .sessao-inicio{
+    margin-top: 4rem;
+}
+    }
+
+ @media (max-width: 455px){
+
+  .sessao-inicio{
+    gap: 1.5rem;
+      margin-top: 4rem;
+}
+
+  .sessao-inicio img{
+    display: none;
+}
+
+   .sessao-sobre {
+    margin-top: 4rem;
+    gap: 1.5rem;
+}
+
+.container-projetos{
+    margin-top: 4rem;
+}
+
+#contato{
+    margin-top: 4rem;
+}
+
+ }

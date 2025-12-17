@@ -90,9 +90,8 @@ nav .navegacao{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8rem;
     flex-wrap: wrap; 
-    margin-top: 100px;
+    margin-top: 13rem;
     margin-bottom: 100px;
 }
 
@@ -150,6 +149,7 @@ nav .navegacao{
     justify-content: center;
     flex-direction: column;
     gap: 2.5rem;
+    margin-top: 10rem;
 }
 
 .perfil img{
@@ -179,18 +179,6 @@ nav .navegacao{
    
 }
 
-.habilidades{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.habilidades img{
-    width: 45px;
-    height: auto;
-    margin-top: 15px;
-}
 
 .contato{
     text-align: center;
@@ -203,7 +191,8 @@ nav .navegacao{
     flex-direction: column;
     width: 600px;
     color: #fff;
-    height: 350px;
+    margin-top: 10rem;
+    padding: 5rem;
 }
 
 
@@ -256,6 +245,10 @@ button:hover{
     background-color: #C6186C;
     color: #fff;
     border: none;
+}
+
+.container-projetos{
+    margin-top: 10rem;
 }
 
 .projetos-alinha{
