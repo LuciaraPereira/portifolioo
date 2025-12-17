@@ -1,4 +1,6 @@
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
+
+ 
     .sessao-sobre{
       flex-wrap: wrap;
       }
@@ -79,6 +81,10 @@
         display: block;
       }
 
+       .sessao-principal{
+    gap: 3rem;
+  }
+
 }
 
 @media (max-width: 615px){
@@ -87,6 +93,7 @@
     .sessao-principal{
         margin-top: 3rem;
         margin-bottom: 2rem;
+        gap: 2rem;
     }
 
     .titulos-inicio h1{
@@ -109,4 +116,4 @@
     height: auto;
 }
 }
-
+ */
